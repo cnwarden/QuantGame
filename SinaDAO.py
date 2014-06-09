@@ -60,16 +60,18 @@ import codecs
 from bs4 import BeautifulSoup
 import wx
 import sys
-
+from QuantConfig import QuantConfig
 
 class SinaDAO:
 
 
     def __init__(self):
 
-        proxyHandler = urllib2.ProxyHandler({'http':'http://10.40.14.56:8080'})
-        opener = urllib2.build_opener(proxyHandler)
-        urllib2.install_opener(opener)
+        cfg = QuantConfig()
+        if cfg.IsEnabledProxy():
+            proxyHandler = urllib2.ProxyHandler({'http':'http://%s:%s' % (cfg.GetProxyConfig())})
+            opener = urllib2.build_opener(proxyHandler)
+            urllib2.install_opener(opener)
 
 
     def getHistory(self, instrumentId):

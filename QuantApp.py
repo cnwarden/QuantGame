@@ -3,7 +3,7 @@
 import sys
 import os
 import wx
-from Frame.FrameMain import FrameMain
+from FrameMain import FrameMain
 
 sys.path.append(r'Plugins')
 

@@ -5,7 +5,7 @@ import wx
 import wx.lib.customtreectrl as CTL
 import sys
 from FrameNews import FrameNews
-from DataAccess.SinaDAO import SinaDAO
+from SinaDAO   import SinaDAO
 
 class FrameMain(wx.Frame):
     def __init__(self, title):
