@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--Stock List-->
+<stocklist>
+    <stock id="600180" name="瑞茂通">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="600415" name="小商品城">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="600446" name="金证股份">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="600570" name="恒生电子">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="600845" name="宝信软件">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="600869" name="远东电缆">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="000851" name="高鸿股份">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="002017" name="东信和平">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="002095" name="生 意 宝">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="002315" name="焦点科技">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="002711" name="欧浦钢网">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="300017" name="网宿科技">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="300226" name="上海钢联">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="300295" name="三六五网">
+        <tag>电商概念</tag>
+    </stock>
+    <stock id="600135" name="乐凯胶片">
+        <tag>京津冀</tag>
+    </stock>
+    <stock id="600149" name="廊坊发展">
+        <tag>京津冀</tag>
+    </stock>
+    <stock id="600155" name="宝硕股份">
+        <tag>京津冀</tag>
+    </stock>
+    <stock id="600158" name="中体产业">
+        <tag>京津冀</tag>
+    </stock>
+</stocklist>
