@@ -97,8 +97,12 @@ class SinaDAO:
 
     def getNews(self, instrumentId):
 
-        reqStr = 'http://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh%s.phtml'
-        re = urllib2.urlopen(reqStr % (instrumentId))
+        exchangeId = 'sh'
+        if instrumentId[0] != '6':
+            exchangeId = 'sz'
+        
+        reqStr = 'http://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/%s%s.phtml'
+        re = urllib2.urlopen(reqStr % (exchangeId, instrumentId))
 
         data = []
         soup = BeautifulSoup(re.read())
